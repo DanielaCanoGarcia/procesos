@@ -11,9 +11,12 @@ public class App {
      * @param argv
      */
     public static void main(String[] argv) {
+
         // TODO implement here
-	Logic myLogic = new Logic();
-	System.out.println("1a project");
-	myLogic.logicla();
+	Logic2a myLogic2a = new Logic2a();//UUU
+	System.out.println("2a project");//UUU
+	myLogic2a.logic2a();//UUU
+
     }
+
 }
