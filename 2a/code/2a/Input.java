@@ -1,5 +1,6 @@
 import java.io.*;
 /**
+ * @version 1.0 22/03/2024
  * @author Daniela Cano
  */
 public class Input {
@@ -25,14 +26,13 @@ public class Input {
      */
     public String readData(String inFile) {
     // read file implement here
-	// Hard code
 
 	try{//UUU
 		br = new BufferedReader(new FileReader(inFile));//UUU
 		String temp="";//UUU
 		String brRead;//UUU
 		while((brRead = br.readLine()) != null){//UUU
-			temp = temp + brRead+"¬";//+
+			temp = temp + brRead+"¬";//UUU
 		}//UUU
 		data=temp;//UUU
 	}catch(Exception e){//UUU

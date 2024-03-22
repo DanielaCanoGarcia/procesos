@@ -1,5 +1,6 @@
 import java.util.*;
 /**
+ * @version 1.0 22/03/2024
  * @author Daniela Cano
  */
 public class OutPut {
@@ -15,7 +16,7 @@ public class OutPut {
      * @param outText
      */
     public void writeData(String outFile, String outText) {
-        // TODO implement here
+        // Metodo que nos crea un archivo con el total de lineas y metodos encontrados
         Formatter file = null;//UUU
         try{//UUU
             file = new Formatter("C:\\Users\\zS22019950\\procesos\\psp\\2a\\code\\2a\\"+outFile);//UUU

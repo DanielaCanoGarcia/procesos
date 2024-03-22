@@ -1,4 +1,5 @@
 /**
+ * @version 1.0 22/03/2024
  * @author Daniela Cano
  */
 public class LineCounter {
@@ -18,7 +19,7 @@ public class LineCounter {
      * @param arrData
      */
     public int count(String[] arrData) {//+
-        // TODO implement here
+        // metodo que cuenta las lineas de codigo
         totalLines=0;//+
         for (String line : arrData) {//+
             if (!line.isEmpty()){//+

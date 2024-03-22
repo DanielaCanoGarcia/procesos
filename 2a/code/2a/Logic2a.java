@@ -1,6 +1,5 @@
-
-
 /**
+ * @version 1.0 22/03/2024
  * @author Daniela Cano
  */
 public class Logic2a {
@@ -40,15 +39,15 @@ public class Logic2a {
      * 
      */
     public void logic2a() {
-        // TODO implement here
-        Input myInput = new Input();//+
-	    Data myData = new Data();//+
+        // Metodo que crea instancias de Input, Data, LineCounter, MethodCounter, OutPut y las utiliza 
+        Input myInput = new Input();//UUU
+	    Data myData = new Data();//UUU
 	    LineCounter myLineCounter = new LineCounter();//+
 	    MethodCounter myMethodCounter = new MethodCounter();//+
-	    OutPut myOut = new OutPut();//+
-	    System.out.println("exec logicla...");//+
+	    OutPut myOut = new OutPut();//UUU
+	    System.out.println("exec logicla...");//UUU
         
-        programName="App.java";//+
+        programName="Data.java";//+
         data=myInput.readData(programName);//+
 	    System.out.println(data);//+
 	    arrData = myData.saveData(data);//+

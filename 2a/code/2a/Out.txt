@@ -1,1 +1,1 @@
-total LOC: 6 total methods: 2
+total LOC: 8 total methods: 2
