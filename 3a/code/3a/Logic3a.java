@@ -79,7 +79,7 @@ public class Logic3a {
 	    arrDatax = myData.saveData(data);//+
 	    System.out.println(arrDatax);//+
 
-        dataY="y3.txt";//+
+        dataY="y2.txt";//+
         data=myInput.readData(dataY);//+
 	    System.out.println(data);//+
 	    arrDataY = myData.saveData(data);//+
